@@ -1,9 +1,47 @@
 /*font-family: 'Dosis', sans-serif;*/
-
-body {
-  background: red;
+:root {
+  --branding-color: #247291;
+  --secondary-color: #f8da5b;
+  --heading-font-family: "Dosis", sans-serif;
+  --color-font: #eef2e2;
+  --secondary-color-font: #f5f9ee;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading-font-family);
+  color: var(--color-font);
 }
 h1 {
-  font-family: "Dosis", sans-serif;
-  color: white;
+  font-size: 96px;
+}
+p {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+}
+.hero {
+  background: var(--branding-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+.hero h2 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 2;
+}
+.btn-branding {
+  font-family: var(--heading-font-family);
+  background: var(--secondary-color);
+  border-radius: 4px;
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
