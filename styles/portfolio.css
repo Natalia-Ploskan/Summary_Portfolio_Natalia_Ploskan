@@ -25,6 +25,9 @@ h2 {
   font-size: 64px;
   text-shadow: 1px 1px 2px black;
 }
+h3 {
+  text-shadow: 1px 1px 2px black;
+}
 p {
   font-family: var(--heading-font-family);
   font-weight: normal;
