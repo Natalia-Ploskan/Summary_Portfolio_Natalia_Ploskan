@@ -41,7 +41,7 @@ p {
 .hero {
   background: var(--branding-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 50px 20px;
   box-shadow: 0px 0px 2px 5px var(--branding-color);
 }
 .hero p {
@@ -55,8 +55,11 @@ p {
   font-weight: normal;
   line-height: 2;
 }
+.content-container {
+  padding: 50px 20px;
+}
 .content {
-  padding: 160px 20px;
+  padding: 0px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -149,7 +152,6 @@ footer .email-link {
 }
 footer .email-link:hover {
   color: var(--branding-color);
-
   transition: all 150ms ease-in-out;
 }
 footer .social-links a {
@@ -180,7 +182,13 @@ footer .social-links a:hover {
     font-size: 24px;
   }
   .hero {
-    padding: 80px 20px;
+    padding: 50px 20px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+  .hero p {
+    font-size: 32px;
   }
   .content {
     text-align: center;

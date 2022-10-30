@@ -26,44 +26,115 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Some info about Natalia Ploskan, front-end developer based in Kyiv"
+    />
+    <title>About Natalia Ploskan</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="img/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/" title="Homepage">
+          <img
+            src="img/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes logo"
+          />
           <img
             src="img/logo-small-bg-none.png"
             class="logo d-block d-md-none rounded"
-            alt=""
+            alt="SheCodes logo"
           />
         </a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li class="active"><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Nata">About</a>
+          </li>
+          <li><a href="/work.html" title="Natalia's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact page">Contact</a></li>
         </ul>
       </nav>
     </div>
     <div class="content-container container">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 mb-5">
           <div class="content">
             <h1>Natalia Ploskan</h1>
             <h2>Front-end Developer, based in Ukraine</h2>
             <p>
               I'm very glad that you visited my page and I hope you will exited
-              for my projects. I'm a teacher for Bila Tserkva, Ukraine
+              for my projects. I'm a teacher from Bila Tserkva, Ukraine
             </p>
-            <a href="" class="btn btn-branding">View my projects</a>
+            <a
+              href="/work.html"
+              class="btn btn-branding rounded shadow"
+              title="Natalia Ploskan's app's"
+              >View my projects</a
+            >
           </div>
         </div>
-        <div class="col-lg-6">
-          <img src="img/natalia.png" alt="" class="img-fluid rounded" />
+        <div class="col-lg-6 mb-5">
+          <img
+            src="img/natalia.png"
+            alt="Natalia Ploskan profile photo"
+            title="Natalia Ploskan"
+            class="img-fluid rounded"
+          />
         </div>
       </div>
+      <footer class="mb-5">
+        <div class="contact-box d-flex justify-content-between mb-4">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p>Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Natalia"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:ploskannatali@gmail.com"
+            class="email-link"
+            title="Email to Natalia Ploskan"
+          >
+            ploskannatali@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://www.instagram.com/ploskan_nata/"
+            target="_blank"
+            title="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/Natalia-Ploskan"
+            target="_blank"
+            title="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://t.me/Nata_Ploskan/" target="_blank" title="Telegram"
+            ><i class="fab fa-telegram"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This website was coded by Natalia Ploskan, and it is
+          <a
+            href="https://github.com/Natalia-Ploskan/Summary_Portfolio_Natalia_Ploskan"
+            target="_blank"
+          >
+            open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
